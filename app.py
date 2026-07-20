@@ -107,7 +107,7 @@ if image:
     left, right = st.columns([1.2,1])
 
     with left:
-        st.image(image, caption=caption, use_container_width=True)
+        st.image(image, caption=caption, width=500)
 
     with right:
 
